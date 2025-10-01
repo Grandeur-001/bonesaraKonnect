@@ -1,0 +1,1 @@
+import{k as e,b as r,w as n,y as o,n as l,f as a,a2 as c,a3 as f}from"./index-CeNLsPl_.js";const u={__name:"LinkBtn",props:{href:{type:String}},setup(s){return(t,i)=>(r(),e(a(f),{to:s.href,class:l(`${a(c)} group`)},{default:n(()=>[o(t.$slots,"default")]),_:3},8,["to","class"]))}};export{u as _};
