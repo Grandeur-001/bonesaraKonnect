@@ -1,0 +1,1 @@
+import{k as e,b as r,w as n,S as o,n as l,f as a,a6 as c,a7 as f}from"./index-DMUNf7E1.js";const u={__name:"LinkBtn",props:{href:{type:String}},setup(s){return(t,i)=>(r(),e(a(f),{to:s.href,class:l(`${a(c)} group`)},{default:n(()=>[o(t.$slots,"default")]),_:3},8,["to","class"]))}};export{u as _};

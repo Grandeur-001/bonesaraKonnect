@@ -1,4 +1,4 @@
-import{R as r,K as a,a1 as e,I as t}from"./index-CeNLsPl_.js";const i=a("div")`
+import{R as r,O as a,a5 as o,I as e}from"./index-DMUNf7E1.js";const s=a("div",{isTransform:Boolean})`
   ${r`relative flex flex-col items-start overflow-hidden space-y-3 shadow-lg md:shadow-lg group`}
   border-radius: 30px;
   transition: all 0.3s ease;
@@ -27,12 +27,19 @@ import{R as r,K as a,a1 as e,I as t}from"./index-CeNLsPl_.js";const i=a("div")`
     border-radius: 0px;
     transform: translateY(-10px);
   }
-`,s=a("div")`
+
+ ${({isTransform:t})=>t&&`
+    &:hover {
+      transform: rotateY(15deg) rotateX(10deg) scale(1.05);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    }
+  `}
+`,d=a("div")`
   ${r`px-[42px] py-[60px] min-h-[25rem]`}
-`,d=a("figure")`
+`,l=a("figure")`
 `;a("img")`
   
-`;const o=e`
+`;const n=o`
   display: inline-block;
   font-size: 50px;
   background-image: var(--linear-gradient);
@@ -40,21 +47,21 @@ import{R as r,K as a,a1 as e,I as t}from"./index-CeNLsPl_.js";const i=a("div")`
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-`,l=t`
-    ${o}
-`,p=a("h4")`
+`,p=e`
+    ${n}
+`,c=a("h4")`
   ${r`font-bold capitalize pb-2 text-[22px] md:text-[25px]`}
-`,c=t`
+`,x=e`
   background-image: var(--linear-gradient);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-`,x=a("p")`
+`,g=a("p")`
   ${r`text-[1rem] leading-[32px]  md:leading-[38px] md:text-[1.1rem]`}
   color: var(--text-secondary);
-`,g=a("span")`
+`,b=a("span")`
   ${r` px-2.5 py-1 rounded-full font-medium text-[var(--text-secondary)]`}
   font-size: 11px;
   border: 1px solid var(--line-gray);
-`;export{s as C,x as D,d as I,p as T,l as a,i as b,g as c,c as d};
+`;export{d as C,g as D,l as I,c as T,p as a,s as b,b as c,x as d};
