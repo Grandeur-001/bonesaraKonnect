@@ -1,4 +1,4 @@
-import{R as a,O as s}from"./index-DMUNf7E1.js";const r=s.div`
+import{U as a,T as s}from"./index-BrP7QYip.js";const r=s.div`
     ${a` mt-[4rem]`}
 `,t=s.div`
     ${a` mt-[6rem]`}

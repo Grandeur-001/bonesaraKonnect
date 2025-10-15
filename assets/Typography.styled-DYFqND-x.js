@@ -1,4 +1,4 @@
-import{O as t}from"./index-DMUNf7E1.js";const i=t.span`
+import{T as t}from"./index-BrP7QYip.js";const i=t.span`
     background-image: var(--text-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
